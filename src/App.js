@@ -1,10 +1,17 @@
+import { BrowserRouter as Router,Route,Switch } from 'react-router-dom' ;
+
 import './App.scss';
+import Home from './components/Home'
+import NotFound from './components/notFound'
 
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <Router>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="*" component={NotFound}/>
+    </Switch>
+  </Router> 
   );
 }
 
