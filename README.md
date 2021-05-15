@@ -3,6 +3,8 @@ This is a todo list in react .
 You can dm me on discord at: JP1234#9518
 
 This is a public repository so pls feel free to contribute.
+Possible Contributions:
+  1)UI Design
 
 # Getting Started with Create React App
 
